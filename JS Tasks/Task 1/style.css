@@ -52,6 +52,12 @@ form {
   color: #fff;
 }
 
+#output {
+  max-width: 80%;
+  margin: 50px auto;
+  font-size: 1.3em;
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
   .headline {
@@ -61,5 +67,9 @@ form {
   #search,
   #submit-btn {
     font-size: 2em;
+  }
+
+  #output {
+    font-size: 2.5em;
   }
 }
