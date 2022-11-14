@@ -27,3 +27,68 @@
   margin-top: 50px;
   color: #333;
 }
+
+.containerBlock, .containerBlockTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carBrand, .carBrandTitle {
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  width: 20%;
+}
+
+.carModels, .carModelsTitle {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  width: 80%;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+.carBrand, .carBrandTitle, .carModels, .carModelsTitle {
+  border: 1px solid black;
+  margin-top: -1px;
+  color: #3944bc;
+  background-color: lightcyan;
+}
+
+.uniqueCarModel {
+  width: 170px;
+}
+
+.carBrandTitle, .carModelsTitle {
+  font-weight: bold;
+  font-size: 1em;
+  color: #222;
+}
+
+#output {
+  width: 100vw;
+}
+
+/* PC */
+@media screen and (min-width: 1024px) {
+  .carModels {
+    flex-wrap: wrap;
+    height: 150px;
+  }
+
+  .carBrandTitle, .carModelsTitle {
+    font-size: 1.5em;
+  }
+
+  .carBrand, .carBrandTitle {
+    font-size: 1.5em;
+    width: 25%;
+  }
+
+  .carModels, .carModelsTitle {
+    width: 75%;
+  }
+}
+
