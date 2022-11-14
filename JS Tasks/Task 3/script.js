@@ -28,6 +28,7 @@ async function showUsers() {
             .then(response => {
                 response.forEach((element, index) => {
                     const container = newElement('div', 'id', 'container' + index, 'class', 'container');
+                    container.style.backgroundColor = 'lightyellow';
                     const userLogin = newElement('div', 'id', 'user' + index, 'class', 'userLogin');
                     const userAvatar = newElement('div', 'id', 'avatar' + index, 'class', 'userAvatar');
                     const avatarImg = newElement('img', 'id', 'image' + index, 'class', 'image');

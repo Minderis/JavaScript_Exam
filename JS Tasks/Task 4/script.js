@@ -26,6 +26,7 @@ async function showCars() {
                 output.appendChild(containerTitle);
                 response.forEach((element, index) => {
                     const container = newElement('div', 'id', 'containerBlock' + index, 'class', 'containerBlock');
+                    container.style.backgroundColor = 'lightcyan';
                     const carBrand = newElement('div', 'id', 'carBrand' + index, 'class', 'carBrand');
                     const carModels = newElement('div', 'id', 'carModels' + index, 'class', 'carModels');
                     carBrand.innerHTML = element.brand;
