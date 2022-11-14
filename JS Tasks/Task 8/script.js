@@ -5,6 +5,8 @@ subtraction(a, b) - priima du skaičius ir grąžina jų skirtumą.
 multiplication(a, b) - priima du skaičius ir grąžina jų daugybos rezultatą;
 division(a, b) - priima du skaičius ir grąžina jų dalybos rezultatą;
 ------------------------------------------------------------------------------------ */
+
+//oldschool way to define class
 function Calculator() {
         this.sum = function(a, b) {
             return a + b;

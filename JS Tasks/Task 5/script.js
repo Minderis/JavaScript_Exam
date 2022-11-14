@@ -23,9 +23,13 @@ const users = [
 function filterDogOwners(array) {
   return array.filter(value => value.hasDog === true );
 }
+
+//return array only with dog owners
 console.log(filterDogOwners(users));
 
 function filterAdults(array) {
   return array.filter(value => value.age > 17 );
 }
+
+// return array only with adults
 console.log(filterAdults(users));
