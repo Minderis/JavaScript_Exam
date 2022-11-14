@@ -59,3 +59,41 @@
   border-radius: 5px;
   background-color: #fff;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #222;
+  margin-top: -1px;
+}
+
+.image {
+  width: 50px;
+}
+
+.userLogin {
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.userAvatar {
+  display: flex;
+  align-items: center;
+}
+
+.container:hover {
+  background-color: lightblue;
+}
+
+/* PC */
+@media screen and (min-width: 1024px) {
+  .userLogin {
+    font-size: 2em;
+  }
+
+  .image {
+    width: 100px;
+  }
+}
